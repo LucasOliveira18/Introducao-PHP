@@ -2,20 +2,14 @@
 
 // programa para categorias de uma competicao de natacao
 
-
-
  $categorias = [];
  $categorias [] = 'infantil';
  $categorias [] = 'adolescente';
  $categorias [] = 'adulto';
  $categorias [] = 'idoso';
-//print_r($categorias); Ira imprimir as categorias
 
 $nome = 'Eduardo';
 $idade = 28;
-
-//var_dump ($nome); diz qual e o tipo de variavel
-//var_dump ($idade);
 
 if($idade >= 6 && $idade <= 12)
 {
